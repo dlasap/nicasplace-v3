@@ -1,6 +1,7 @@
 import react from "react";
 import "./ImgSlider.scss";
 const ImgSlider = () => {
+  // css media query for mobile device
   return (
     <div className="img-slide-container">
       <div className="photo-container">
@@ -20,7 +21,7 @@ const ImgSlider = () => {
           <img
             className="side"
             alt="img1"
-            src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.6435-9/121994265_4594384273968686_5485147437218446688_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=EtubIl4SXIMAX_H3GSc&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfBRa62xG7iOMB9ZN1HwDl1QKpQX52W5NhDwutzBMSCmkg&oe=642BB54E"
+            src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/159887136_5240121999394907_5051421953318392565_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeF4oNrBmdabNrRRPcsEJQpsvbOkUx0sEo29s6RTHSwSjc_eVa0QGlprRAayIcgy_Nelw_XScXVsDOJJPs5Z4Ekq&_nc_ohc=500upwapWF4AX-mUKqf&_nc_ht=scontent.fceb2-1.fna&oh=00_AfBZ4ix2RYHAlD359TSOwYJU8mb609B_568duntWitwlaw&oe=642D0321"
           />
 
           <img
@@ -41,6 +42,10 @@ const ImgSlider = () => {
           <br />
           <br /> with over 30 comfortable rooms available.
         </p>
+        <div className="buttons">
+          <button>ROOMS</button>
+          <button>AMENITIES</button>
+        </div>
       </div>
     </div>
   );

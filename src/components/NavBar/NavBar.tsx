@@ -1,13 +1,17 @@
 import react from "react";
 import "./NavBar.scss";
+import img from "../../assets/new.png";
+
 const NavBar = () => {
   return (
     <div className="navbar-container">
-      <p className="logo">Nica's Place at Horizons 101</p>
+      <p className="logo">
+        <img src={img} alt="logo" max-height="50px" width="150px" />
+      </p>
       <div className="menu">
         <li>Home</li>
         <li>Rooms</li>
-        <li>Ameneties</li>
+        <li>Amenities</li>
         <li id="contact-us">Contact Us</li>
       </div>
     </div>

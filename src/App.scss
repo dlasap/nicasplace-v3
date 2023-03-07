@@ -49,8 +49,9 @@ $bg-url: url(./assets/122058618_4603120033095110_1464806725660473852_n.jpg);
   }
 
   .footer {
-    min-height: 100%;
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
     grid-row: 3/4;
     grid-column: 1/4;
   }

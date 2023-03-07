@@ -38,13 +38,19 @@ const Footer = () => {
           <br />
           +63 917 555 3846
           <br />
+          Horizons 101
+          <br />
           General Maxilom Avenue
           <br />
           6000 Cebu City, Philippines
         </p>
       </div>
       <div className="btm-text">
-        <p> Copyright. All rights reserved. 2023. </p>
+        <p>
+          Managed by Nica's Place.
+          <br />
+          Copyright. All rights reserved. 2023.{" "}
+        </p>
       </div>
     </div>
   );
